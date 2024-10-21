@@ -16,4 +16,4 @@ The best way to getting started is to read our documentation [here](https://inar
 
 ## License
 
-All rights @ Inarix SAS
+All rights reserved @ Inarix SAS
