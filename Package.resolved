@@ -1,5 +1,5 @@
 {
-  "originHash" : "68bf04d2940e6787bcfd795535badb2ba8017743a324548344db1ad4b7a117cb",
+  "originHash" : "4130acdf02ea6f3c197a8cd628918aef9d507211bba0f959b6e694eb574d242a",
   "pins" : [
     {
       "identity" : "newrelic-ios-agent-spm",
