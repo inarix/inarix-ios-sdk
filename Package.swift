@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // Add dependencies if your SDK uses other packages.
         .package(url: "https://github.com/newrelic/newrelic-ios-agent-spm.git", branch: "main"),
-        .package(url: "https://github.com/PostHog/posthog-ios.git", from: "3.0.0"),
+        .package(url: "https://github.com/PostHog/posthog-ios.git", branch: "fix/internal-phlibwebp"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
