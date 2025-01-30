@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // Add dependencies if your SDK uses other packages.
         .package(url: "https://github.com/newrelic/newrelic-ios-agent-spm.git", branch: "main"),
-        .package(url: "https://github.com/PostHog/posthog-ios.git", branch: "fix/internal-phlibwebp"),
+        .package(url: "https://github.com/PostHog/posthog-ios.git", from: "3.19.2"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,7 +27,7 @@ let package = Package(
                 .product(name: "PostHog", package: "posthog-ios"),
                 .target(name: "InarixSDK"),
             ]),
-        .binaryTarget(name: "InarixSDK", url: "https://storage.googleapis.com/prod-inarix-public/dev/InarixSDK_v0.2.9-alpha.xcframework.zip", checksum: "d6dcb561372e4b2fad5f1f1a9033d2221b912518fb665959b6581ab5d45bfba0"),
+        .binaryTarget(name: "InarixSDK", url: "https://storage.googleapis.com/prod-inarix-public/dev/InarixSDK_v0.2.10-alpha.xcframework.zip", checksum: "cdd5fdd6663053ea904322c5830bc9073d36e91a95e7c7ad440608e4dfcc250e"),
         .testTarget(
             name: "inarix-ios-sdkTests",
             dependencies: ["inarix-ios-sdk"]),
