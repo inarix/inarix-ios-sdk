@@ -1,6 +1,6 @@
 # Changelog
 
-**v0.3.1-beta**
+**v0.3.2-beta**
 
 - (feat, ui/ux): adds modular actions capabilities
 - (feat, ui/ux): adds headers to steps layout and reordering steps
