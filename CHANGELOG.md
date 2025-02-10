@@ -1,5 +1,9 @@
 # Changelog
 
+**v0.3.3-beta**
+
+- (fix): adds handler to upload images to Google Cloud Storage
+
 **v0.3.2-beta**
 
 - (feat, ui/ux): adds modular actions capabilities
