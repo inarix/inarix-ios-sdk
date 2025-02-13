@@ -1,5 +1,10 @@
 # Changelog
 
+**v0.3.5-beta**
+
+- (fix): button icon are correct for call to action in modular actions
+- (fix): no more error sent when taking photos after a bad acquisition: "The operation couldn’t be completed. (InarixFramework.OperationException error 0.)"
+
 **v0.3.3-beta**
 
 - (fix): adds handler to upload images to Google Cloud Storage
