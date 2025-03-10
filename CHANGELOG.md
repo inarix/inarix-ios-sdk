@@ -1,5 +1,10 @@
 # Changelog
 
+**v0.3.6-beta**
+
+- (fix): Minor fixes on texts and localization.
+- (fix): Added Scenario Data Validations
+
 **v0.3.5-beta**
 
 - (fix): button icon are correct for call to action in modular actions
