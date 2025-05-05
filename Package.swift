@@ -27,7 +27,7 @@ let package = Package(
                 .product(name: "PostHog", package: "posthog-ios"),
                 .target(name: "InarixSDK"),
             ]),
-        .binaryTarget(name: "InarixSDK", url: "https://storage.googleapis.com/prod-inarix-public/dev/InarixSDK_v0.4.8-beta.xcframework.zip", checksum: "797ec22992be37ee8777350ccdb722a4928979162b665fd9d098ef960c469669"),
+        .binaryTarget(name: "InarixSDK", url: "https://storage.googleapis.com/prod-inarix-public/dev/InarixSDK_v0.4.9-beta.xcframework.zip", checksum: "54f3fb7838f59119614d85c40f2db2da7f2d273299eae6c10c089bca62738576"),
         .testTarget(
             name: "inarix-ios-sdkTests",
             dependencies: ["inarix-ios-sdk"]),
