@@ -1,5 +1,7 @@
 # Changelog
-
+**v0.3.7-beta** **v0.3.71-beta**
+- (fix):Fixes on tracking plan
+ 
 **v0.3.6-beta**
 
 - (fix): Minor fixes on texts and localization.
