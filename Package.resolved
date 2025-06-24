@@ -16,7 +16,7 @@
       "location" : "https://github.com/PostHog/posthog-ios.git",
       "state" : {
         "revision" : "22f1a379b32838d9db484d873d6a8b5d39e50e27",
-        "version" : "3.19.2"
+        "version" : "3.28.0"
       }
     }
   ],
