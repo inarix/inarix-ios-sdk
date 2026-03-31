@@ -1,37 +1,69 @@
 # Changelog
 
-**v0.3.5-beta**
+Release names match the **InarixSDK** XCFramework version in `Package.swift` (Swift Package Manager). Update this file whenever you ship a new binary so integrators know what changed.
 
-- (fix): button icon are correct for call to action in modular actions
-- (fix): no more error sent when taking photos after a bad acquisition: "The operation couldn’t be completed. (InarixFramework.OperationException error 0.)"
+## v0.8.6-exp
 
-**v0.3.3-beta**
+- Assisted image capture v2: species detection, clearer auto vs manual capture, and improved quality feedback and analytics.
+- Dependencies: [PostHog iOS](https://github.com/PostHog/posthog-ios) SPM requirement updated to **3.48.3** and above (see `Package.swift`).
 
-- (fix): adds handler to upload images to Google Cloud Storage
+## v0.8.4-exp
 
-**v0.3.2-beta**
+- Scenario player: more reliable handling when the flow is terminated (`.terminate`).
 
-- (feat, ui/ux): adds modular actions capabilities
-- (feat, ui/ux): adds headers to steps layout and reordering steps
-- (ui/ux): adds result card logic and UI/UX
-- (fix): memory leaks
-- (fix): crashs related to Newrelic SDK
-- (ci/cd): packaging in xcframework with Posthog
+## v0.8.3-exp
 
-**v0.2.1-alpha**
+- Connectivity checks: optional probe and configurable intervals (less noisy offline detection).
+- Localization: extra locales and fixes for German and Spanish.
 
-- (qol): Fixes `setDevMode()` to set URL to staging Inarix API
+## v0.8.2-exp
 
-**v0.2.0-alpha**
+- Localization: strings for slow connection and waiting/delay messaging.
 
-- (feat): Provides `InarixSDK` entrypoint
-- (feat): Gets real-time crops analysis using `ScenarioPlayer`
-- (feat, ui/ux): Displays `ScenarioPlayer` internal state using `ScenarioPlayerView`
+## v0.8.1-exp
 
-**v0.1.8-alpha**
+- Connectivity: offline/slow-connection awareness with a banner and clearer behaviour during analysis and modular actions.
+- Diagnostics: clearer network-related information when a step fails (easier support and debugging).
 
-- (ci/cd): Setups CI/CD
+## v0.7.9-exp
 
-**v0.1.3-alpha**
+- **Minimum iOS version is now 16.0** (required for current framework APIs).
 
-- (ci/cd): Packages the SDK into `InarixSDK` singleton class.
+## v0.7.7-exp / v0.7.8-exp
+
+- Long-running analysis: progress polling and user-facing delay messaging (IIE v3–style flow).
+- Broader analytics around analysis and modular actions.
+
+## v0.6.6-beta
+
+- Stability and UX fixes across assisted capture, scenario player, declarations, and storage.
+- Localisation and accessibility fixes on key steps.
+
+## v0.6.5-beta — v0.6.1-beta
+
+- Assisted capture: guidelines, flash/camera lifecycle, device-specific fixes, and tracking cleanup.
+- Declarations, identification, and storage: validation and UI fixes.
+
+## v0.6.0-beta
+
+- Assisted capture updates; removed legacy on-device ML assets (smaller footprint).
+- Timezone and permission-related fixes.
+
+## v0.5.x
+
+- Assisted hybrid capture, image-quality tuning, and experimental camera options.
+- Grainwise-related flows, storage choice, and offline validation behavior.
+
+## v0.4.x — v0.3.x
+
+- Token refresh controls, localization, modular actions and result cards, camera permission and stability fixes.
+- Analytics and host-app compatibility improvements.
+
+## v0.2.0-alpha — v0.2.1-alpha
+
+- Public `InarixSDK` entry point with `ScenarioPlayer` / `ScenarioPlayerView`.
+- Staging API via `setDevMode()` fix.
+
+## v0.1.3-alpha — v0.1.8-alpha
+
+- Initial packaged SDK and CI/CD for builds.
