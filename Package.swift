@@ -30,7 +30,7 @@ let package = Package(
                 .product(name: "CrashReporter", package: "plcrashreporter"),
                 .target(name: "InarixSDK"),
             ]),
-        .binaryTarget(name: "InarixSDK", url: "https://storage.googleapis.com/prod-inarix-public/exp/InarixSDK_v0.9.2-exp.xcframework.zip", checksum: "072e484fcef6f20a3bbf10efbae455f2c985ba8e19faf0c88b01ae817c904b19"),
+        .binaryTarget(name: "InarixSDK", url: "https://storage.googleapis.com/prod-inarix-public/exp/InarixSDK_v0.9.3-exp.xcframework.zip", checksum: "bf15cfbf21d2bca215b95aa610f84e4cd0154b4132d305668c705fad9d4f794e"),
         .testTarget(
             name: "inarix-ios-sdkTests",
             dependencies: ["inarix-ios-sdk"]),
