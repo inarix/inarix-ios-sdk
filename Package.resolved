@@ -1,5 +1,5 @@
 {
-  "originHash" : "5f59408fbe679f974af0b75aa63ba246ba5ac0ad5d988928b52b6e009b219401",
+  "originHash" : "78ed6e6f083aa21cc701269c391c271a5934857aff745ef3cf593173ce6d9d6e",
   "pins" : [
     {
       "identity" : "newrelic-ios-agent-spm",
@@ -7,7 +7,16 @@
       "location" : "https://github.com/newrelic/newrelic-ios-agent-spm.git",
       "state" : {
         "branch" : "main",
-        "revision" : "9c77b22f4f501aba5335d1957d94fde781abd051"
+        "revision" : "542b4d64dc485dd47be883176b4a40e3451193dc"
+      }
+    },
+    {
+      "identity" : "plcrashreporter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/microsoft/plcrashreporter.git",
+      "state" : {
+        "revision" : "0254f941c646b1ed17b243654723d0f071e990d0",
+        "version" : "1.12.2"
       }
     },
     {
@@ -15,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/PostHog/posthog-ios.git",
       "state" : {
-        "revision" : "acce759e8f2fb3d8a598009a4ec980157931eae4",
-        "version" : "3.28.1"
+        "revision" : "9199aa2a26c9f2ee12e68869fc28ec4a205edabc",
+        "version" : "3.48.3"
       }
     }
   ],
