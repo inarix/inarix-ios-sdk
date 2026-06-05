@@ -2,6 +2,23 @@
 
 Release names match the **InarixSDK** XCFramework version in `Package.swift` (Swift Package Manager). Update this file whenever you ship a new binary so integrators know what changed.
 
+## v0.9.4-exp
+
+- iPad UI: phone-like full-width scenario player, full-screen step flows, assisted camera layout metrics, and fixes for analysis steps not appearing after photo collection on iPad.
+ 
+
+## v0.8.93-exp
+
+- Modular-action ramp-up loop fix, category search filtering fixes, default-location URL handling, and license-warning analytics typing.
+
+## v0.8.9-exp
+
+- Portuguese language support across scenario player, assisted acquisition, formatting, and localization resources.
+
+## v0.8.8-exp
+
+- Assisted image acquisition: capture mode localization fix (bg, de, es, ro).
+
 ## v0.8.6-exp
 
 - Assisted image capture v2: species detection, clearer auto vs manual capture, and improved quality feedback and analytics.
