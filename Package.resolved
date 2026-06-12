@@ -1,5 +1,5 @@
 {
-  "originHash" : "d33df169e155a3834a42168f44a08cbf97ff7571031e12a9010eb0e13acbab6e",
+  "originHash" : "33196e9bf4fd53a877c8285afa42410bddbb35ec4af504ff827f88dfd2d8d68f",
   "pins" : [
     {
       "identity" : "newrelic-ios-agent-spm",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/PostHog/posthog-ios.git",
       "state" : {
-        "revision" : "d04eaa61de483aefbfcfce16107fe199fd5f13b1",
-        "version" : "3.48.2"
+        "revision" : "9199aa2a26c9f2ee12e68869fc28ec4a205edabc",
+        "version" : "3.48.3"
       }
     }
   ],
